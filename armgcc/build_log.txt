@@ -1,0 +1,47 @@
+Scanning dependencies of target threadx
+Consolidate compiler generated dependencies of target threadx
+[ 84%] Built target threadx
+Scanning dependencies of target threadx_demo.elf
+[ 84%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/components/lists/fsl_component_generic_list.c.obj
+[ 85%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/components/uart/fsl_adapter_lpuart.c.obj
+[ 86%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_manager.c.obj
+[ 86%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/components/serial_manager/fsl_component_serial_port_uart.c.obj
+[ 86%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/gcc/startup_MIMXRT1062.S.obj
+[ 87%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/system_MIMXRT1062.c.obj
+[ 87%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/drivers/fsl_clock.c.obj
+[ 87%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/drivers/fsl_common.c.obj
+[ 88%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/drivers/fsl_common_arm.c.obj
+[ 88%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/drivers/fsl_gpio.c.obj
+[ 89%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/drivers/fsl_lpuart.c.obj
+[ 89%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/boards/evkbmimxrt1060/xip/evkbmimxrt1060_flexspi_nor_config.c.obj
+[ 90%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/xip/fsl_flexspi_nor_boot.c.obj
+[ 90%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_misra.S.obj
+[ 90%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_context_restore.S.obj
+[ 91%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_context_save.S.obj
+[ 91%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_interrupt_control.S.obj
+[ 92%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_interrupt_disable.S.obj
+[ 93%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_interrupt_restore.S.obj
+[ 93%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_stack_build.S.obj
+[ 93%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_schedule.S.obj
+[ 94%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_timer_interrupt.S.obj
+[ 94%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/cortex_m7/gnu/src/tx_thread_system_return.S.obj
+[ 94%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/rtos/azure-rtos/threadx/ports/common/tx_initialize_low_level.c.obj
+[ 95%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/utilities/fsl_sbrk.c.obj
+[ 96%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/utilities/fsl_syscall_stub.c.obj
+[ 96%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/utilities/fsl_assert.c.obj
+[ 96%] Building ASM object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/utilities/fsl_memcpy.S.obj
+[ 96%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/utilities/str/fsl_str.c.obj
+[ 97%] Building C object CMakeFiles/threadx_demo.elf.dir/project/sdk/devices/MIMXRT1062/utilities/debug_console/fsl_debug_console.c.obj
+[ 97%] Building C object CMakeFiles/threadx_demo.elf.dir/project/src/threadx_demo.c.obj
+[ 98%] Building C object CMakeFiles/threadx_demo.elf.dir/project/board/clock_config.c.obj
+[ 98%] Building C object CMakeFiles/threadx_demo.elf.dir/project/board/board.c.obj
+[ 99%] Building C object CMakeFiles/threadx_demo.elf.dir/project/board/dcd.c.obj
+[ 99%] Building C object CMakeFiles/threadx_demo.elf.dir/project/board/pin_mux.c.obj
+[100%] Linking C executable debug/threadx_demo.elf
+Memory region         Used Size  Region Size  %age Used
+    m_interrupts:          1 KB         1 KB    100.00%
+          m_text:       49352 B       127 KB     37.95%
+          m_data:       15056 B       256 KB      5.74%
+         m_data2:          0 GB       128 KB      0.00%
+        m_ncache:          32 B       512 KB      0.01%
+[100%] Built target threadx_demo.elf

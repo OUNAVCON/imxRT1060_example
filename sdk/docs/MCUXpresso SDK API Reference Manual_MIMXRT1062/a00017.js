@@ -1,0 +1,116 @@
+var a00017 =
+[
+    [ "_csi_config", "a00017.html#a00340", [
+      [ "width", "a00017.html#aa87f4e4a75b55dd3c5abb5c60c04f342", null ],
+      [ "height", "a00017.html#ad23fb85c17aca752f6ad942892407d2a", null ],
+      [ "polarityFlags", "a00017.html#aa941eb41b6d5f8d71091a1947326a183", null ],
+      [ "bytesPerPixel", "a00017.html#a527fe46ba2e0bc0c0b9b802719b9d6e1", null ],
+      [ "linePitch_Bytes", "a00017.html#a9a3fc579a852f34bddbf0f3de5141dd9", null ],
+      [ "workMode", "a00017.html#af01a2fa8deb8edb1e2cc4b10d9711b0b", null ],
+      [ "dataBus", "a00017.html#adc5877102571c3b2fad7e68d81291a27", null ],
+      [ "useExtVsync", "a00017.html#a616fc7c4c54c446c200b80b9b45f4b05", null ]
+    ] ],
+    [ "_csi_handle", "a00017.html#a00341", [
+      [ "frameBufferQueue", "a00017.html#af5f2235f8567d7997b08a1940175e297", null ],
+      [ "queueWriteIdx", "a00017.html#a06c77a80fe42b345ac0f922445efd416", null ],
+      [ "queueReadIdx", "a00017.html#a3cac71e25437352d6aab02cf98b19482", null ],
+      [ "emptyBuffer", "a00017.html#a79061b46f379dbdadaceabbe7919b037", null ],
+      [ "emptyBufferCnt", "a00017.html#addbb81150dbfefa8ed9a89ee094e5953", null ],
+      [ "activeBufferNum", "a00017.html#aac982c0d3585d6109c08f250b5e2ba94", null ],
+      [ "transferStarted", "a00017.html#a5d27f39310ca972f7cd96e83165435a6", null ],
+      [ "callback", "a00017.html#a74c5d4ac3ea58518a9188d861e101ce8", null ],
+      [ "userData", "a00017.html#a4bc56dcea99a9ceeeb2fe84d516476f7", null ]
+    ] ],
+    [ "CSI_DRIVER_QUEUE_SIZE", "a00017.html#ga6f3f169f7ba5517e946634a28add89e1", null ],
+    [ "CSI_DRIVER_FRAG_MODE", "a00017.html#ga24e366c9c656595ba3258f0e6bc59c74", null ],
+    [ "csi_work_mode_t", "a00017.html#ga38c28eea487217a99433bc441abcd017", null ],
+    [ "csi_data_bus_t", "a00017.html#gad0d5e8a230f4021a71ef3792ee99f8d7", null ],
+    [ "csi_config_t", "a00017.html#ga7d2e9074e11fec0878ae4199b708eb31", null ],
+    [ "csi_fifo_t", "a00017.html#ga3ed868a78c932aa1904d48c0d65cf650", null ],
+    [ "csi_transfer_callback_t", "a00017.html#ga68a7e9c86a91b7ffb6547cf762ef6f3f", [
+      [ "kStatus_CSI_NoEmptyBuffer", "a00017.html#gga99fb83031ce9923c84392b4e92f956b5a14ddc6ba82ee752fdfe1f4b0e64d5533", null ],
+      [ "kStatus_CSI_NoFullBuffer", "a00017.html#gga99fb83031ce9923c84392b4e92f956b5a4fb022ca8ae559e96d18524e7ea09a5f", null ],
+      [ "kStatus_CSI_QueueFull", "a00017.html#gga99fb83031ce9923c84392b4e92f956b5a6517cec370f757b84ba21eb690e51635", null ],
+      [ "kStatus_CSI_FrameDone", "a00017.html#gga99fb83031ce9923c84392b4e92f956b5ac9a47e7b267d5ece60e04306d2e245d2", null ]
+    ] ],
+    [ "_csi_work_mode", "a00017.html#ga612584939135a10bf4b198e805785762", [
+      [ "kCSI_GatedClockMode", "a00017.html#gga612584939135a10bf4b198e805785762ab707b88b2c5b3ca70afe6b78f2988571", null ],
+      [ "kCSI_NonGatedClockMode", "a00017.html#gga612584939135a10bf4b198e805785762aefff73d6d0ed48e20bb12df629036633", null ],
+      [ "kCSI_CCIR656ProgressiveMode", "a00017.html#gga612584939135a10bf4b198e805785762abab5a5dfbcc1c77bc66513760fdb0ddf", null ]
+    ] ],
+    [ "_csi_data_bus", "a00017.html#ga230259b1b2d94e1c0049171840fbb049", [
+      [ "kCSI_DataBus8Bit", "a00017.html#gga230259b1b2d94e1c0049171840fbb049ae6e9f2234f6b659241d9d504457e04dd", null ],
+      [ "kCSI_DataBus16Bit", "a00017.html#gga230259b1b2d94e1c0049171840fbb049ab41330fa7ebc27664112a4b592b53626", null ],
+      [ "kCSI_DataBus24Bit", "a00017.html#gga230259b1b2d94e1c0049171840fbb049ad26851c8a6a7be5e501625034e0f6a99", null ]
+    ] ],
+    [ "_csi_polarity_flags", "a00017.html#gafda41057e6d13039ca0d139b89abde64", [
+      [ "kCSI_HsyncActiveLow", "a00017.html#ggafda41057e6d13039ca0d139b89abde64aa1f34086d7ab2823fc0036e30e0b5889", null ],
+      [ "kCSI_HsyncActiveHigh", "a00017.html#ggafda41057e6d13039ca0d139b89abde64aab952a4e21500ee629a8bd16ece03b3f", null ],
+      [ "kCSI_DataLatchOnRisingEdge", "a00017.html#ggafda41057e6d13039ca0d139b89abde64aa98b2058628ba0d2bff537f81df0bfc9", null ],
+      [ "kCSI_DataLatchOnFallingEdge", "a00017.html#ggafda41057e6d13039ca0d139b89abde64a86d385db0cc0163dc5a0a44aad733a80", null ],
+      [ "kCSI_VsyncActiveHigh", "a00017.html#ggafda41057e6d13039ca0d139b89abde64a4926dcbdf349c2cf3d8dd88d12f4bb9f", null ],
+      [ "kCSI_VsyncActiveLow", "a00017.html#ggafda41057e6d13039ca0d139b89abde64a9c1a612c6d6e49ba13091df9d6046aab", null ]
+    ] ],
+    [ "_csi_fifo", "a00017.html#gac3edbdbf7abc89ac49f0a44af06f6f24", [
+      [ "kCSI_RxFifo", "a00017.html#ggac3edbdbf7abc89ac49f0a44af06f6f24a2665957976c094c559d20661126fc914", null ],
+      [ "kCSI_StatFifo", "a00017.html#ggac3edbdbf7abc89ac49f0a44af06f6f24a36df4b7466c177205c81d8fd4fe8dfa4", null ],
+      [ "kCSI_AllFifo", "a00017.html#ggac3edbdbf7abc89ac49f0a44af06f6f24a960822cab30b37b78e71b03754b1adfc", null ]
+    ] ],
+    [ "_csi_interrupt_enable", "a00017.html#ga445b9c8db2ffe230018ced411b88cc3e", [
+      [ "kCSI_EndOfFrameInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea7346f16c89a990476f2551ceb7b40065", null ],
+      [ "kCSI_ChangeOfFieldInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ead360f344cb258fc94c31091c60a9921c", null ],
+      [ "kCSI_StatFifoOverrunInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ead3eae43cd538d4963a92537e10857375", null ],
+      [ "kCSI_RxFifoOverrunInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3eabe9ee51fbfa0916ac89d43cf1dceec5a", null ],
+      [ "kCSI_StatFifoDmaDoneInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea88e9447b7f3d6730a8817418a9149bdf", null ],
+      [ "kCSI_StatFifoFullInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea25e1d2b38d337c7ac800a14ed153496a", null ],
+      [ "kCSI_RxBuffer1DmaDoneInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3eab51980279060e64d99dea0b615b1a6eb", null ],
+      [ "kCSI_RxBuffer0DmaDoneInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3eaa93e6aebf81cc468b6827ecae5e996e3", null ],
+      [ "kCSI_RxFifoFullInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea32b521a89db1b0a953e54ff82ddaafe1", null ],
+      [ "kCSI_StartOfFrameInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea1f737081cd588e20b0e37adda571380a", null ],
+      [ "kCSI_EccErrorInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea426a30446ecdcd5a8ef11d7114587afc", null ],
+      [ "kCSI_AhbResErrorInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3eae5a566edbf0dbd027cbd20bc6649fb00", null ],
+      [ "kCSI_BaseAddrChangeErrorInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea485b9acd1e879204a29e1351eef0f34b", null ],
+      [ "kCSI_Field0DoneInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea53b2171811b48986f94d99640bc293e6", null ],
+      [ "kCSI_Field1DoneInterruptEnable", "a00017.html#gga445b9c8db2ffe230018ced411b88cc3ea51b6eae094b905ec5c42f09330ab0cc2", null ]
+    ] ],
+    [ "_csi_flags", "a00017.html#gac962030ce8597d68455e55874a51721f", [
+      [ "kCSI_RxFifoDataReadyFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa32acc9a0622596c7f830e6d70568931c", null ],
+      [ "kCSI_EccErrorFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa3e02610408a6ebfe221869a1923009ba", null ],
+      [ "kCSI_AhbResErrorFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa984df7af7f9825fb4659d11f42463f44", null ],
+      [ "kCSI_ChangeOfFieldFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fabe92f518f5c2f0ccbe55ebdcf4c29e89", null ],
+      [ "kCSI_Field0PresentFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fab337940c172c17058f8cde8bb676378f", null ],
+      [ "kCSI_Field1PresentFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa157a47bde1ba661fdf22ca2ae61b3c0b", null ],
+      [ "kCSI_StartOfFrameFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa064c85b25c414abdeb86d501eb57360c", null ],
+      [ "kCSI_EndOfFrameFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fac6409ca23ef24a10e22fb9582213f2bc", null ],
+      [ "kCSI_RxFifoFullFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fabdd835d96491b90bf5ae39dc5e4b0497", null ],
+      [ "kCSI_RxBuffer1DmaDoneFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa27f18871d1b522ca628722a3fb80b89d", null ],
+      [ "kCSI_RxBuffer0DmaDoneFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa3168d94660e46e761c0639a1a20b74ee", null ],
+      [ "kCSI_StatFifoFullFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa920018020044eb07e3ffed1f423208a5", null ],
+      [ "kCSI_StatFifoDmaDoneFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa961784728b693f7741adb7b17ebe425b", null ],
+      [ "kCSI_StatFifoOverrunFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa0350ec81b55a8180eaffcd8b1f537cdf", null ],
+      [ "kCSI_RxFifoOverrunFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fab01731bc864c9b47644a6de2bc2f88d5", null ],
+      [ "kCSI_Field0DoneFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa2676d308e2677cc91f47ae0661355d10", null ],
+      [ "kCSI_Field1DoneFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa6e7f6d415b0e9848c2f33f25ea9c0036", null ],
+      [ "kCSI_BaseAddrChangeErrorFlag", "a00017.html#ggac962030ce8597d68455e55874a51721fa254be4a91697e3bf3146a663454c2e60", null ]
+    ] ],
+    [ "CSI_Init", "a00017.html#ga6ab1581b894e0addd36e259454d894fb", null ],
+    [ "CSI_Deinit", "a00017.html#ga29130aa6333127427e9945203a941c31", null ],
+    [ "CSI_Reset", "a00017.html#gaaf0c3b036356a13b113c190762035317", null ],
+    [ "CSI_GetDefaultConfig", "a00017.html#ga44bd4343d5866367abc152651f3d8a03", null ],
+    [ "CSI_ClearFifo", "a00017.html#gaa9a972883f2e04aefb94bac426fa9c72", null ],
+    [ "CSI_ReflashFifoDma", "a00017.html#gabd61e583724350ad66feacf6cb55e86c", null ],
+    [ "CSI_EnableFifoDmaRequest", "a00017.html#ga266530ad9e8aa0e0e4977317b5cd9899", null ],
+    [ "CSI_Start", "a00017.html#gace757ddd954a29a1a11c0bdc119b17ad", null ],
+    [ "CSI_Stop", "a00017.html#ga49731f4255e64f48eb0f26628296c13e", null ],
+    [ "CSI_SetRxBufferAddr", "a00017.html#ga17f23deb7d61ad8d88b10165e512d50d", null ],
+    [ "CSI_EnableInterrupts", "a00017.html#ga433cf3d4d36b2d602b2e41b415abd85f", null ],
+    [ "CSI_DisableInterrupts", "a00017.html#gaaef95a89e63407cdb28b9dbf81ce4fe5", null ],
+    [ "CSI_GetStatusFlags", "a00017.html#gac756a072ac5afdb9567632d02d13e73f", null ],
+    [ "CSI_ClearStatusFlags", "a00017.html#ga9368862568891bbdb29b0a6287801506", null ],
+    [ "CSI_TransferCreateHandle", "a00017.html#gaff15e4c1cd458f686e4f296ce3d417d5", null ],
+    [ "CSI_TransferStart", "a00017.html#ga65a17c86c64297a09857e435588a65d6", null ],
+    [ "CSI_TransferStop", "a00017.html#gac20498234465760225985287ff862751", null ],
+    [ "CSI_TransferSubmitEmptyBuffer", "a00017.html#ga807a6677a22856cf8ad1e37253b14d44", null ],
+    [ "CSI_TransferGetFullBuffer", "a00017.html#ga36f7bf646f55c098fb12d6fa387d6424", null ],
+    [ "CSI_TransferHandleIRQ", "a00017.html#gaa8118210b401dacd2257dbb75c6a6310", null ]
+];
